@@ -16,6 +16,7 @@ print(df["Name"].nunique())
 #print(df["Sentence"].count())
 print("Q2".center(30, "*"))
 print(df["Name"].value_counts())
+print(df["Name"].value_counts().index[0])
 
 #Q3: 以单词计数，谁说了最多的单词？
 s = df["Sentence"]
